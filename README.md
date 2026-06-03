@@ -77,7 +77,6 @@ q1: ─────X──M
 
 Los únicos resultados posibles son `|00⟩` y `|11⟩`, **nunca** `|01⟩` ni `|10⟩`. Esto evidencia la **correlación perfecta del entrelazamiento cuántico**: medir un qubit en estado 0 colapsa instantáneamente el otro a 0, y viceversa, sin importar la distancia física.
 
-![Bell Histogram](capturas/bell_histogram.png)
 
 ---
 
@@ -107,11 +106,11 @@ q2: ──X──H──[Oráculo]──── (ancilla, no se mide)
 
 **Oráculo Constante** (solo `|00⟩`):
 
-![DJ Constante](capturas/dj_constante_histogram.png)
+capturas: dj_constante_histogram.png
 
 **Oráculo Balanceado** (`|00⟩` ausente por interferencia destructiva):
 
-![DJ Balanceada](capturas/dj_balanceada_histogram.png)
+capturas: dj_balanceada_histogram.png
 
 ---
 
@@ -145,10 +144,10 @@ q1: ──H──[Oráculo]──H──X──Z──X──H──M
 | `\|10⟩` | `\|10⟩` | ~92.6% | CORRECTO |
 | `\|11⟩` | `\|11⟩` | ~92.6% | CORRECTO |
 
-![Grover 00](capturas/grover_00.png)
-![Grover 01](capturas/grover_01.png)
-![Grover 10](capturas/grover_10.png)
-![Grover 11](capturas/grover_11.png)
+capturas: grover_00.png
+capturas: grover_01.png
+capturas: grover_10.png
+capturas: grover_11.png
 
 ---
 
